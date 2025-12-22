@@ -1,5 +1,5 @@
 import cv2
-
+#hehhehehe
 #read webcam
 webcam = cv2.VideoCapture(0)
 
