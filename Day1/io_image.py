@@ -11,5 +11,5 @@ img = cv2.imread(image_path)
 cv2.imwrite(os.path.join('.', 'data', 'bird_out.jpg'), img)
 
 #visualize image 
-cv2.imshow('image', img)
+cv2.imshow('img', img)
 cv2.waitKey(0)
