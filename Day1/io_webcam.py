@@ -9,7 +9,7 @@ while True:
 
     cv2.imshow('frame', frame)
     #stops when user clicks the letter 'q'
-    if cv2.waitKey(40) & 0xFF == ord('q'):
+    if cv2.waitKey(20) & 0xFF == ord('q'):
         break
 
 #release memory allocated
